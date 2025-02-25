@@ -3,17 +3,17 @@ import type { Metadata } from "next"
 import Providers from "../components/Providers"
 
 export const metadata: Metadata = {
-  title: "Your Name - Portfolio",
-  description: "Professional portfolio showcasing skills and projects",
+  title: "Sohrab Behdani",
+  description: "My Personal Website",
   openGraph: {
-    title: "Your Name - Portfolio",
-    description: "Professional portfolio showcasing skills and projects",
+    title: "Sohrab Behdani",
+    description: "My Personal Website",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Your Name - Portfolio",
-    description: "Professional portfolio showcasing skills and projects",
+    title: "Sohrab Behdani",
+    description: "My Personal Website",
   },
 }
 

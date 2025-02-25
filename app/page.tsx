@@ -6,6 +6,7 @@ import Footer from "../components/Footer"
 const HeroSection = dynamic(() => import("../components/HeroSection"), { ssr: false })
 const SkillsShowcase = dynamic(() => import("../components/SkillsShowcase"), { ssr: false })
 const SocialMediaSection = dynamic(() => import("../components/SocialMediaSection"), { ssr: false })
+const MastodonFeed = dynamic(() => import("../components/MastodonFeed"), { ssr: false })
 
 export default function HomePage() {
   return (
@@ -14,10 +15,12 @@ export default function HomePage() {
       <Box component="main" sx={{ flexGrow: 1 }}>
         <HeroSection />
         <SkillsShowcase />
+        <MastodonFeed />
         <SocialMediaSection />
       </Box>
       <Footer />
     </Box>
   )
 }
+
 
